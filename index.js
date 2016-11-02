@@ -13,8 +13,8 @@ module.exports = function (verificationToken, onSlackEvent) {
 
     if (body.type === 'url_verification') return res.send(body.challenge);
     if (body.type === 'event_callback') {
-      onSlackEvent(body);
-      return res.send('ok');
+      res.send('ok');
+      return onSlackEvent(body);
     }
 
     res.status(400).send('bad request - not slack event api');
