@@ -1,6 +1,6 @@
 {
   "name": "express-slack-events-listener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express Middleware which emits all events received from Slack Events API",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,12 @@
     "api",
     "middleware"
   ],
-  "author": "Joshua Karjala-Svendsen <joshua@founders.as>",
+  "contributors": [
+    "Joshua Karjala-Svendsen <joshua@founders.as> (https://github.com/joshuakarjala)",
+    "Tobias Baunbæk <tobias@founders.as> (https://github.com/freeall)",
+    "Eduardo Sorribas <ed@founders.as> (https://github.com/sorribas)",
+    "Kasper Jacbosen <kasper@founders.as> (https://github.com/dinoshauer)",
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FoundersAS/express-slack-events-listener/issues"
